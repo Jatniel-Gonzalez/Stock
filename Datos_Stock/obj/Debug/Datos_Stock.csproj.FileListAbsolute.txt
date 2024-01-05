@@ -1,0 +1,9 @@
+C:\Users\felix\OneDrive\Documentos\Stock\Datos_Stock\bin\Debug\Datos_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Datos_Stock\bin\Debug\Datos_Stock.pdb
+C:\Users\felix\OneDrive\Documentos\Stock\Datos_Stock\bin\Debug\Global_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Datos_Stock\bin\Debug\Global_Stock.pdb
+C:\Users\felix\OneDrive\Documentos\Stock\Datos_Stock\obj\Debug\Datos_Stock.csproj.AssemblyReference.cache
+C:\Users\felix\OneDrive\Documentos\Stock\Datos_Stock\obj\Debug\Datos_Stock.csproj.CoreCompileInputs.cache
+C:\Users\felix\OneDrive\Documentos\Stock\Datos_Stock\obj\Debug\Datos_Stock.csproj.CopyComplete
+C:\Users\felix\OneDrive\Documentos\Stock\Datos_Stock\obj\Debug\Datos_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Datos_Stock\obj\Debug\Datos_Stock.pdb

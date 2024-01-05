@@ -1,0 +1,15 @@
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\bin\Debug\net7.0\Data_Stock.deps.json
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\bin\Debug\net7.0\Data_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\bin\Debug\net7.0\Data_Stock.pdb
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\bin\Debug\net7.0\Sevices_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\bin\Debug\net7.0\Sevices_Stock.pdb
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\obj\Debug\net7.0\Data_Stock.csproj.AssemblyReference.cache
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\obj\Debug\net7.0\Data_Stock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\obj\Debug\net7.0\Data_Stock.AssemblyInfoInputs.cache
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\obj\Debug\net7.0\Data_Stock.AssemblyInfo.cs
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\obj\Debug\net7.0\Data_Stock.csproj.CoreCompileInputs.cache
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\obj\Debug\net7.0\Data_Stock.csproj.CopyComplete
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\obj\Debug\net7.0\Data_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\obj\Debug\net7.0\refint\Data_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\obj\Debug\net7.0\Data_Stock.pdb
+C:\Users\felix\OneDrive\Documentos\Stock\Data_Stock\obj\Debug\net7.0\ref\Data_Stock.dll

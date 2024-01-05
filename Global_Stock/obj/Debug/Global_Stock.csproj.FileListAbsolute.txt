@@ -1,0 +1,6 @@
+C:\Users\felix\OneDrive\Documentos\Stock\Global_Stock\bin\Debug\Global_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Global_Stock\bin\Debug\Global_Stock.pdb
+C:\Users\felix\OneDrive\Documentos\Stock\Global_Stock\obj\Debug\Global_Stock.csproj.AssemblyReference.cache
+C:\Users\felix\OneDrive\Documentos\Stock\Global_Stock\obj\Debug\Global_Stock.csproj.CoreCompileInputs.cache
+C:\Users\felix\OneDrive\Documentos\Stock\Global_Stock\obj\Debug\Global_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Global_Stock\obj\Debug\Global_Stock.pdb
