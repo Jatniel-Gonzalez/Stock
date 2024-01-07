@@ -1,6 +1,6 @@
-using Stock.Models;
+
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+using Stock.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

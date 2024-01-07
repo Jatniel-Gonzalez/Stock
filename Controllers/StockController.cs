@@ -1,10 +1,8 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Stock.Models;
-using System.Linq;
-using Stock.Models;
-using Stock.Models.Dtos;
+using Sevices_Stock;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace Stock.Controllers
 {
@@ -20,12 +18,26 @@ namespace Stock.Controllers
             _dbcontext = dbcontext;
         }
 
+
+        public  IActionResult Index()
+        {
+
+            var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json", optional: false);
+                IConfiguration cofiguration = builder.Build();
+            String Constring = cofiguration.GetConnectionString("ConnectionStrings: StockContext");
+
+            return Ok();
+
+        }
+
+
+
         [HttpGet]
         public async Task<IActionResult> GetAllAsync()
         {
             var products = await _dbcontext.Products.ToListAsync();
 
-            var productDtos = products.Select(product => new productdto()
+            var productDtos = products.Select(product => new ProductDto()
             {
                 IdProduct = product.IdProduct,
                 Name = product.Name,
@@ -52,7 +64,7 @@ namespace Stock.Controllers
                 return NotFound();
 
 
-            var productDtos = new productdto
+            var productDtos = new ProductDto
             {
                 IdProduct = product.IdProduct,
                 Name = product.Name,
@@ -74,7 +86,7 @@ namespace Stock.Controllers
 
 
         [HttpPost("CreateCategory") ]
-        public async Task<IActionResult> CreateCategory([FromBody] createdcategorydto createdcategorydto)
+        public async Task<IActionResult> CreateCategory([FromBody] CreatedCategoryDto createdcategorydto)
         {
             var category = new Category
             {
@@ -86,7 +98,7 @@ namespace Stock.Controllers
             await _dbcontext.SaveChangesAsync();
 
 
-            var createdcategorydtoS = new createdcategorydto
+            var createdcategorydtoS = new CreatedCategoryDto
             {
               IdCategory = category.IdCategory,
                 Name = category.Name,
@@ -99,51 +111,33 @@ namespace Stock.Controllers
 
 
 
-        [HttpPost("CreatedProduct")]
-        public async Task<IActionResult> CreatedProduct([FromBody] createdproductdto insertproductdto )
+      [HttpPost("CreatedProduct")]
+    public async Task<IActionResult> CreatedProduct([FromBody] CreatedProductDto insertproductdto)
+    {
+        var Product = new Product
         {
-
-           
-
-            var Product = new Product
-            {
-             
-                Name = insertproductdto.Name,
-                Description = insertproductdto.Description,
-                Price = insertproductdto.Price,
-                AmountProduct = insertproductdto.AmountProduct,
+             Name = insertproductdto.Name,
+             Description = insertproductdto.Description,
+             Price = insertproductdto.Price,
+            AmountProduct = insertproductdto.AmountProduct,
                 IdCategory = insertproductdto.IdCategory,
+         };
 
-            };
+    _dbcontext.Products.Add(Product);
+    await _dbcontext.SaveChangesAsync();
 
-            _dbcontext.Products.Add(Product);
-            _dbcontext.SaveChanges();
+    var productDtos = new ProductDto
+    {
+        IdProduct = Product.IdProduct,
+        Name = Product.Name,
+        Description = Product.Description,
+        Price = Product.Price,
+        AmountProduct = Product.AmountProduct,
+        IdCategory = Product.IdCategory,
+    };
 
-
-            var productDtos = new productdto
-            {
-                IdProduct = Product.IdProduct,
-                Name = Product.Name,
-                Description = Product.Description,
-                Price = Product.Price,
-                AmountProduct = Product.AmountProduct,
-                IdCategory = Product.IdCategory,
-
-            };
-
-
-
-            return Created(  "/api/Stock/"  + Product.IdProduct ,new { Message = "enviado ", Data = productDtos });
-
-
+    return Created("/api/Stock/" + Product.IdProduct, new { Message = "enviado ", Data = productDtos });
         }
-
-
-      
-
-
-
-
 
 
 
