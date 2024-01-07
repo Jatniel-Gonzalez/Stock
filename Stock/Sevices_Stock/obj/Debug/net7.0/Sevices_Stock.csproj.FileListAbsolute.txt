@@ -9,3 +9,14 @@ C:\Users\felix\OneDrive\Documentos\Stock\Sevices_Stock\obj\Debug\net7.0\Sevices_
 C:\Users\felix\OneDrive\Documentos\Stock\Sevices_Stock\obj\Debug\net7.0\refint\Sevices_Stock.dll
 C:\Users\felix\OneDrive\Documentos\Stock\Sevices_Stock\obj\Debug\net7.0\Sevices_Stock.pdb
 C:\Users\felix\OneDrive\Documentos\Stock\Sevices_Stock\obj\Debug\net7.0\ref\Sevices_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Stock\Sevices_Stock\bin\Debug\net7.0\Sevices_Stock.deps.json
+C:\Users\felix\OneDrive\Documentos\Stock\Stock\Sevices_Stock\bin\Debug\net7.0\Sevices_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Stock\Sevices_Stock\bin\Debug\net7.0\Sevices_Stock.pdb
+C:\Users\felix\OneDrive\Documentos\Stock\Stock\Sevices_Stock\obj\Debug\net7.0\Sevices_Stock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felix\OneDrive\Documentos\Stock\Stock\Sevices_Stock\obj\Debug\net7.0\Sevices_Stock.AssemblyInfoInputs.cache
+C:\Users\felix\OneDrive\Documentos\Stock\Stock\Sevices_Stock\obj\Debug\net7.0\Sevices_Stock.AssemblyInfo.cs
+C:\Users\felix\OneDrive\Documentos\Stock\Stock\Sevices_Stock\obj\Debug\net7.0\Sevices_Stock.csproj.CoreCompileInputs.cache
+C:\Users\felix\OneDrive\Documentos\Stock\Stock\Sevices_Stock\obj\Debug\net7.0\Sevices_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Stock\Sevices_Stock\obj\Debug\net7.0\refint\Sevices_Stock.dll
+C:\Users\felix\OneDrive\Documentos\Stock\Stock\Sevices_Stock\obj\Debug\net7.0\Sevices_Stock.pdb
+C:\Users\felix\OneDrive\Documentos\Stock\Stock\Sevices_Stock\obj\Debug\net7.0\ref\Sevices_Stock.dll
