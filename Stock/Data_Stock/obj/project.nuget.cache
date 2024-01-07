@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TXWFIMl9LcWkewg1xEtKBTVeEkHtMNAq32xu0Si6Vl6+m5Xvbi3N8Hd8mG3Sz7/N/EhdGVGCCiQkZix9UWzs0A==",
+  "dgSpecHash": "PnnGJpVimKc2WnYxrw1qbNHmvqjiBG9yQ1ZnI+KfvMdRpzVbdZ+VirOW82qJ5fgdYu38hNHAXsMWbk8zwtISxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\felix\\OneDrive\\Documentos\\Stock\\Data_Stock\\Data_Stock.csproj",
+  "projectFilePath": "C:\\Users\\felix\\OneDrive\\Documentos\\Stock\\Stock\\Data_Stock\\Data_Stock.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felix\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\felix\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
