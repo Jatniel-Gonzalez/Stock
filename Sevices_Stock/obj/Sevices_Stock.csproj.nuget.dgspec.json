@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felix\\OneDrive\\Documentos\\Stock\\Stock\\Sevices_Stock\\Sevices_Stock.csproj": {}
+    "C:\\Users\\felix\\OneDrive\\Documentos\\Stock\\Sevices_Stock\\Sevices_Stock.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felix\\OneDrive\\Documentos\\Stock\\Stock\\Sevices_Stock\\Sevices_Stock.csproj": {
+    "C:\\Users\\felix\\OneDrive\\Documentos\\Stock\\Sevices_Stock\\Sevices_Stock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felix\\OneDrive\\Documentos\\Stock\\Stock\\Sevices_Stock\\Sevices_Stock.csproj",
+        "projectUniqueName": "C:\\Users\\felix\\OneDrive\\Documentos\\Stock\\Sevices_Stock\\Sevices_Stock.csproj",
         "projectName": "Sevices_Stock",
-        "projectPath": "C:\\Users\\felix\\OneDrive\\Documentos\\Stock\\Stock\\Sevices_Stock\\Sevices_Stock.csproj",
+        "projectPath": "C:\\Users\\felix\\OneDrive\\Documentos\\Stock\\Sevices_Stock\\Sevices_Stock.csproj",
         "packagesPath": "C:\\Users\\felix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felix\\OneDrive\\Documentos\\Stock\\Stock\\Sevices_Stock\\obj\\",
+        "outputPath": "C:\\Users\\felix\\OneDrive\\Documentos\\Stock\\Sevices_Stock\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\felix\\AppData\\Roaming\\NuGet\\NuGet.Config",
