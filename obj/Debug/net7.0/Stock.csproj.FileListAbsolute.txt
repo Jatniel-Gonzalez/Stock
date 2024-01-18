@@ -163,6 +163,7 @@ C:\Users\felix\OneDrive\Documentos\Stock\Stock01\obj\Debug\net7.0\refint\Stock.d
 C:\Users\felix\OneDrive\Documentos\Stock\Stock01\obj\Debug\net7.0\Stock.pdb
 C:\Users\felix\OneDrive\Documentos\Stock\Stock01\obj\Debug\net7.0\Stock.genruntimeconfig.cache
 C:\Users\felix\OneDrive\Documentos\Stock\Stock01\obj\Debug\net7.0\ref\Stock.dll
+<<<<<<< HEAD
 C:\Users\felix\OneDrive\Documentos\Stock\Stock\Stock01\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\felix\OneDrive\Documentos\Stock\Stock\Stock01\bin\Debug\net7.0\appsettings.json
 C:\Users\felix\OneDrive\Documentos\Stock\Stock\Stock01\bin\Debug\net7.0\packages\EntityFramework.6.4.4\tools\netcoreapp3.0\any\ef6.runtimeconfig.json
@@ -252,3 +253,5 @@ C:\Users\felix\OneDrive\Documentos\Stock\Stock\Stock01\obj\Debug\net7.0\refint\S
 C:\Users\felix\OneDrive\Documentos\Stock\Stock\Stock01\obj\Debug\net7.0\Stock.pdb
 C:\Users\felix\OneDrive\Documentos\Stock\Stock\Stock01\obj\Debug\net7.0\Stock.genruntimeconfig.cache
 C:\Users\felix\OneDrive\Documentos\Stock\Stock\Stock01\obj\Debug\net7.0\ref\Stock.dll
+=======
+>>>>>>> ed517083de3ce8178df845625da8ce3d31afa789

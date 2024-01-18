@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stock", "Stock.csproj", "{C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data_Stock", "..\Data_Stock\Data_Stock.csproj", "{49B7971D-37CD-4E5E-82E7-C7CA55FA8AC6}"
 EndProject
+<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sevices_Stock", "..\Sevices_Stock\Sevices_Stock.csproj", "{8F671DEF-998D-46D3-B318-AC9E64B49DBE}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sevices_Stock", "..\Sevices_Stock\Sevices_Stock.csproj", "{8F671DEF-998D-46D3-B318-AC9E64B49DBE}"
+>>>>>>> ed517083de3ce8178df845625da8ce3d31afa789
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
