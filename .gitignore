@@ -4,3 +4,15 @@
 
 .github
 
+# .gitignore
+
+.DS_Store
+Thumbs.db
+*.o
+*.pyc
+bin/
+debug/
+node_modules/
+*.log
+
+
